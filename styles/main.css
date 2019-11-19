@@ -1,7 +1,7 @@
   /** {
     outline: 1px solid red !important;
  } */
- * {
+* {
      -webkit-box-sizing: border-box;
      -moz-box-sizing: border-box;
      -ms-box-sizing: border-box;
@@ -11,12 +11,14 @@
 body {
     font-family: Andale Mono;
     font-size: 14px;
+    display: flex;
 }
 
 .title {
     background-color: pink;
     font-family: Andale Mono;
-    padding: 10px 50px
+    padding: 10px 40px;
+    width: min-content;
 }
 
 .blog {
@@ -24,7 +26,6 @@ body {
     display: flex;
     padding: 20px 50px 20px 50px;
 }
-
 
 .image {
     width: 500px;
@@ -36,15 +37,19 @@ body {
 
 .description {
     display: inline-block;
-    padding: 200px 100px 10px 30px;
-    width: 1000px;
+    padding: 150px 50px 10px 50px;
+    width: 500px;
 }
     .description:hover {
     border: 3px double rgb(191, 245, 245);
     }
     
-.intro {
+.text {
     font-size: 12px;
+}
+
+.blogTitle {
+    font-size: 40px;
 }
 
 .button {
@@ -54,10 +59,6 @@ body {
     width: 100px;
     border-radius: 40%;
     border-color: pink;
-}
-
-.naming {
-    font-size: 40px;
 }
 
 .buttonLink {
