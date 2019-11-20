@@ -11,38 +11,34 @@
 body {
     font-family: Andale Mono;
     font-size: 14px;
-    display: flex;
 }
 
-.title {
+.heading {
     background-color: pink;
-    font-family: Andale Mono;
-    padding: 10px 40px;
-    width: min-content;
+    padding: 30px;
+    font-size: 30px;
 }
 
-.blog {
-    display: -webkit-flex;
-    display: flex;
-    padding: 20px 50px 20px 50px;
+.col-md-7 {
+    padding: 20px;
 }
 
 .image {
-    width: 500px;
-    height: 500px;
+    width: 100%;
+    height: 100%;
     border-radius: 50%;
     border-style: double;
     border-color: green;
 }
 
-.description {
-    display: inline-block;
-    padding: 150px 50px 10px 50px;
-    width: 500px;
-}
-    .description:hover {
+.image:hover {
     border: 3px double rgb(191, 245, 245);
     }
+
+.col-md-5 { 
+    padding: 150px 50px 10px 50px;
+    
+}
     
 .text {
     font-size: 12px;
@@ -50,11 +46,11 @@ body {
 
 .blogTitle {
     font-size: 40px;
+    font-weight: 900;
 }
 
 .button {
-    font-size: x-large;
-   
+    font-size: 15px;
     height: 100px;
     width: 100px;
     border-radius: 40%;
@@ -64,4 +60,8 @@ body {
 .buttonLink {
     text-decoration: none;
     color: grey;
+}
+
+h2 {
+    padding: 20px;
 }

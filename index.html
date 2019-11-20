@@ -2,45 +2,75 @@
 <html>
 
 <head>
+  <meta charset="utf-8">
   <title>Claire's blog</title>
-  <link rel="stylesheet" type="text/css" href="styles/main.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link rel="stylesheet" href="styles/main.css">
 </head>
 
+<!---Heading--->
 <body>
-  <div class="title">
-    <h1><em>The undecided title</em></h1>
-    <!---Add a search bar--->
+  <div>
+    <h1 class="heading"><em>The undecided title</em></h1>
   </div>
-
-
   <!---First blog post--->
-  <section>
-    <div class="blog">
-      <div>
+  <section class="container">
+    <div class="row">
+      <div class="col-md-7">
         <a href="valuesIdentity.html"><img src="Pictures/UNADJUSTEDNONRAW_thumb_ea.jpg" class="image"
             alt="Sprint one"></a>
       </div>
-      <div class="description">
+      <div class="col-md-5">
         <p class="text">Diving right on in with</p>
-        <h1 class="blogTitle">Identity and Values</h1>
+        <h2 class="blogTitle">Identity and Values</h2>
         <p>"One can never have enough socks"- Albus Dumbledore</p>
         <button class="button"><a href="valuesIdentity.html" class="buttonLink">Read me</a></button>
       </div>
     </div>
     <!---Second blog post--->
-    <div class="blog">
-      <div>
+    <div class="row">
+      <div class="col-md-7">
         <a href="planningStrategy.html"><img src="Pictures/UNADJUSTEDNONRAW_thumb_c1.jpg" class="image"
             alt="Sprint two"></a>
       </div>
-      <div class="description">
+      <div class="col-md-5">
         <p class="text">Future's looking bright with a solid</p>
-        <h1 class="blogTitle">Planning strategy</h1>
+        <h2 class="blogTitle">Planning strategy</h2>
         <p>"It is our choices, that show what we truly are, far more than our abilities.”- Albus Dumbledore</p>
         <button class="button"><a href="planningStrategy.html" class="buttonLink">Read me</a></button>
       </div>
     </div>
   </section>
+
+  <!---Technical blogs--->
+  <section class="container">
+    <div class="row">
+      <h2>Technical blogs</h2>
+    </div>
+    <div class="row">
+      <div class="col-sm-4">
+        <p>sprint one</p>
+      </div>
+      <div class="col-sm-4">
+        <p>sprint two</p>
+      </div>
+      <div class="col-sm-4">
+        <p>sprint three</p>
+      </div>
+    </div>
+  </section>
+
+
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+    crossorigin="anonymous"></script>
 </body>
 
 </html>
