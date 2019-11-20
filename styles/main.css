@@ -31,7 +31,7 @@ body {
     border-color: green;
 }
 
-.image:hover {
+img:hover {
     border: 3px double rgb(191, 245, 245);
     }
 
@@ -64,4 +64,17 @@ body {
 
 h2 {
     padding: 20px;
+}
+
+.tech-image {
+    width: 80%;
+    height: 60%;
+    border-style: double;
+    border-color: green;
+}
+
+.tech-title {
+    padding: 40px 0px;
+    border-top: double;
+    border-color: pink;
 }
