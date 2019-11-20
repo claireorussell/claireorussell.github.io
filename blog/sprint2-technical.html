@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>To Block or to not</title>
+    <link rel="stylesheet" href="styles/main.css">
+</head>
+
+<body>
+    <div>
+        <h1>What does it mean to display inline vs inline blocks?</h1>
+    </div>
+    <div>
+        <h3>Introduction to topic</h3>
+        <p>
+            The first important concept to understand about any webpage is that every element on a web page, the title,
+            the images the paragraphs are all treated in blocks. Try to imagine a border enclosing each element on the
+            web page as a way to keep them separated so they can be styled.
+        </p>
+        <p>
+            Without any display styling each box of content on your page would sit one on top of the other in a vertical
+            line which is called block display and is the default styling.
+            To position content as we want it to appear on screen we add a value to the display styling of its element.
+            Inline and inline block are two of these display options.
+        </p>
+        <h3>The image below represents the three display options.</h3>
+
+        <img src="images/mGTYI.png" alt="Inline and Inline block example">
+
+        <h3>Display option explained</h3>
+        <p>
+            Inline display will position each box with it’s contents in a horizontal line one after the other and always
+            to the width of the contents inside. Inline display is best used as the display for a sentence or paragraph
+            of text where you want to highlight one phrase with different italics or highlight a section of the
+            paragraph. Inline display ignores the following values when associated to the element;
+            <ul>
+                <li>height or weight values</li>
+                <li>padding and margin values on the top and bottom of the element</li>
+            </ul>
+        </p>
+        <p>
+           Inline block display will position each box with it’s content side-by-side much the same as Inline display.
+            The difference is that it will account for extra values such as height associated to the element. When you
+            add extra styling such as a padding around the content, the box will account for this and increase the white
+            space between contents and the box border by the padding indicated. This option will also account for
+            wrapping, when the row can fit no more boxes on it will automatically wrap underneath in the appropriate
+            margin spacing indicated.
+        </p>
+        <h3>So what does it mean to display inline vs inline blocks?</h3>
+        <p>
+            Do you need to be able to change the height, width, top or bottom padding? choose inline blocks, if not
+            inline it is.
+        </p>
+    </div>
+</body>
+</html>
