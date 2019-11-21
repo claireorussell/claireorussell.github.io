@@ -17,6 +17,7 @@ body {
     background-color: pink;
     padding: 30px;
     font-size: 30px;
+    margin: 0px;
 }
 
 .col-md-7 {
@@ -51,8 +52,9 @@ img:hover {
 
 .button {
     font-size: 15px;
-    height: 100px;
-    width: 100px;
+    height: 80px;
+    width: 80px;
+    border: double;
     border-radius: 40%;
     border-color: pink;
 }
@@ -75,6 +77,6 @@ h2 {
 
 .tech-title {
     padding: 40px 0px;
-    border-top: double;
+    border-top: solid; 
     border-color: pink;
 }
