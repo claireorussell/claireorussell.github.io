@@ -1,4 +1,4 @@
-  /** {
+/** {
     outline: 1px solid red !important;
  } */
 * {
@@ -13,11 +13,10 @@ body {
     font-size: 14px;
 }
 
-.heading {
+.title {
     background-color: pink;
-    padding: 30px;
+    padding: 50px;
     font-size: 30px;
-    margin: 0px;
 }
 
 .col-md-7 {
@@ -29,7 +28,7 @@ body {
     height: 100%;
     border-radius: 50%;
     border-style: double;
-    border-color: green;
+    border-color: #008000;
 }
 
 img:hover {
@@ -45,9 +44,10 @@ img:hover {
     font-size: 12px;
 }
 
-.blogTitle {
+h2 {
     font-size: 40px;
     font-weight: 900;
+    margin: 20px;
 }
 
 .button {
@@ -57,15 +57,12 @@ img:hover {
     border: double;
     border-radius: 40%;
     border-color: pink;
+    margin: 30px;
 }
 
 .buttonLink {
     text-decoration: none;
     color: grey;
-}
-
-h2 {
-    padding: 20px;
 }
 
 .tech-image {
@@ -79,4 +76,39 @@ h2 {
     padding: 40px 0px;
     border-top: solid; 
     border-color: pink;
+}
+
+.small-image {
+    width: 60%;
+    height: 70%;
+    border-radius: 50%;
+    border-style: double;
+    border-color: green;
+    align-content: center;
+    margin: 20px 20px 10px 0px;
+}
+
+.blogHeading {
+    text-align: right;
+    padding: 60px 0px ;
+    font-size: 50px;
+}
+
+.heading {
+    margin: 0px;
+    padding: 0px;
+    height: min-content;
+    background: pink;
+}
+
+.textBody {
+    text-align: left;
+    padding: 20px;
+    margin: 0px 50px;
+
+}
+
+h3 {
+    padding: 20px 0px;
+    color: navy;
 }
