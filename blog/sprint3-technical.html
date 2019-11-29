@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Javascript and the DOM</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles/main.css">
+</head>
+
+<body>
+    <section class="heading">
+        <div class="row">
+            <div class="col-sm-1">
+                <button class="button"><a href="../index.html" class="buttonLink">Home</a></button>
+            </div>
+            <div class="col-md-8">
+                <h1 class="blogHeading"> Javascript basics and the DOM </h1>
+            </div>
+            <div class="col-sm-3">
+                <img src="Images/UNADJUSTEDNONRAW_thumb_f8.jpg" class="small-image" alt="Sprint two"></a>
+            </div>
+        </div>
+    </section>
+
+    <section class="textBody">
+        <div class="row">
+            <div class="col-md-12">
+                <h3>The differences between HTML and CSS</h3>
+                <p>
+                    Using a house for this analogy, the html is the contents you own that make up the house from your
+                    items to the foundational aspects. The css is the styling to the contents in the house.The colour of
+                    the walls, the carpet feel, the colour and shape of your desk.
+                    There can be html without css but there can never be css without html as there would be nothing to
+                    style.
+                </p>
+                <h3>Control flow and loops</h3>
+                <p>
+                    Control flow is the order that your code executes, and a loop is a statement that will continue
+                    repeating until the condition you give it is met.
+                </p>
+                <p>
+                    An example of this is ‘when do i need to shower’ there are different reasons (conditions) for
+                    needing a shower. We loop through the condition of being ‘unclean’ on which to execute , ‘did you
+                    bike from work’ If yes (true) the execution is ‘you will need to shower’. If not you could run
+                    through another condition asking will you have time to shower in the morning before work. If the
+                    answer to this was no you would shower now. The stopping point for the loop would be needing to
+                    shower at least once from the time you get home to when you leave home the next day.
+                </p>
+                <h3>The DOM and how you interact with it</h3>
+                <p>
+                    The DOM (Document Object Model) is an object representation of your html document. We can add,
+                    change, manipulate elements in html by representing them as nodes in the DOM and adding values and
+                    function to the object using Javascript.
+                </p>
+                <p></p>
+                An example of interaction with the DOM is adding an event to an element in your html.
+                The code to do this is: <strong>addEventListner()</strong>.
+                </p>
+                <p>
+                    This method will wait for something to happen, we call this an event. It may clicking on a button
+                    and the reaction to this will be that the display changes colour.
+                </p>
+                <h3> Accessing data from arrays && objects</h3>
+                <p>
+                    Data in an array has items that are associated to a variable and can be accessed by their index. An
+                    index starts counting at zero so the first item on your list will be index [0] the second index [1]
+                    and so on.
+                </p>
+                <p>
+                    An example of an array is var coffee = [true, 2, “milk”, “yum”]
+                </p>
+                <p>
+                    To access the value “milk” in the array you would call on the property; coffee[2] and the output
+                    would be “milk”. Although your array is built of different types of values, number, string, boolean
+                    you call on each data type in the same way using the index.
+                </p>
+                <p>
+                    Objects store data in a list, each item has a property key and a value assigned to that property.
+                    You call on the value by passing in the variable and the property.
+                </p>
+                <p>An example of an object is
+                    <p>
+                        var coffee = { <br>
+                        “need a coffee”: “true” ,<br>
+                        “number of coffees”: “2”, <br>
+                        “extras”: “milk”,<br>
+                        “taste”: “Yum”<br>
+                    </p>
+                    To access the value milk in the object you call on the property; coffee.extras and the output would
+                    be “milk”.
+                </p>
+                <h3> Funtions and their use</h3>
+                <p>
+                    Functions are used in your code to perform a specific task or find a value. We use a set of
+                    statements to define what we want our function to do and then this code will run as many times as we
+                    tell it to.
+                    Functions are so useful for reusability, which means you can call on the same function is other
+                    areas of your programme and not have to write out the same line of code, you write it jus the once
+                    and reuse it. This therefore condenses your code and makes it more readable and less complex.
+
+                </p>
+            </div>
+        </div>
+    </section>
+    <!---Bootstrap links--->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+
+</body>
+
+</html>

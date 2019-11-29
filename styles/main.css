@@ -1,6 +1,6 @@
-* {
+/** {
     outline: 1px solid red !important;
- } 
+ } */
 * {
      -webkit-box-sizing: border-box;
      -moz-box-sizing: border-box;
@@ -70,12 +70,15 @@ h2 {
     height: 60%;
     border-style: double;
     border-color: green;
+    margin: 0px 40px;
 }
 
 .tech-title {
     padding: 40px 0px;
     border-top: solid; 
     border-color: pink;
+    text-align: center;
+
 }
 
 .small-image {
